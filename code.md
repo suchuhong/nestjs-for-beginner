@@ -8,3 +8,8 @@ nest new nestjs-for-beginner
 nest g module users
 nest g service users
 nest g controller users
+
+https://docs.nestjs.com/first-steps
+https://github.com/gitdagray/nestjs-course
+
+## 3
