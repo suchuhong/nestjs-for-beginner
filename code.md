@@ -2,6 +2,7 @@
 
 npm i -g @nestjs/cli
 nest new nestjs-for-beginner
+vscode 插件 thunder client
 
 https://nest.nodejs.cn/
 
@@ -29,3 +30,29 @@ npm i class-transformer
 https://docs.nestjs.com/pipes
 https://github.com/typestack/class-validator#validation-decorators
 https://docs.nestjs.com/techniques/validation
+
+## 5、orm
+
+### 配置数据库环境
+
+npm i prisma -D
+npx prisma init
+
+编辑 schema.prisma
+npx prisma migrate dev --name init
+npx prisma migrate dev --name name_change
+
+vscode 插件 Prisma
+
+### 生成 database
+
+nest g module database
+nest g service database
+
+### 生成 employees
+
+nest g resource employees
+
+Neon: https://neon.tech/
+Prisma: https://www.prisma.io/
+https://www.prisma.io/docs/getting-started/quickstart
