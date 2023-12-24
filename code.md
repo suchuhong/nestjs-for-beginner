@@ -56,3 +56,27 @@ nest g resource employees
 Neon: https://neon.tech/
 Prisma: https://www.prisma.io/
 https://www.prisma.io/docs/getting-started/quickstart
+
+## 6、CORS、限流、日志、异常
+
+### CORS
+
+https://docs.nestjs.com/faq/global-prefix
+https://docs.nestjs.com/security/cors
+
+### 限流
+
+npm i --save @nestjs/throttler
+
+https://docs.nestjs.com/security/rate-limiting
+
+### 日志
+
+https://docs.nestjs.com/techniques/logger
+
+nest g module my-logger
+npm g module my-logger
+
+### 异常过滤器
+
+https://docs.nestjs.com/exception-filters
